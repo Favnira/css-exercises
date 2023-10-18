@@ -1,10 +1,22 @@
+<<<<<<< HEAD
 .para {
   color: hsl(0, 100%, 50%);
   font-size: 22px;
+=======
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+>>>>>>> d3c5d8c0e4616a15d392dc7b7e28e49ad2362d5d
 }
 
 .small-para {
   font-size: 14px;
+  font-weight: 800;
 }
 
 
@@ -20,6 +32,7 @@
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .text .child {
   color: red;
   font-size: 14px;
@@ -27,5 +40,16 @@
 
 .text {
   color: green;
+=======
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+>>>>>>> d3c5d8c0e4616a15d392dc7b7e28e49ad2362d5d
   font-size: 22px;
+  font-weight: 100;
 }
